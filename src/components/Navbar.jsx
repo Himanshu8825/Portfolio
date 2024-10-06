@@ -4,7 +4,7 @@ import { FiMenu } from 'react-icons/fi';
 import { MdClose } from 'react-icons/md';
 import { Link } from 'react-scroll';
 
-import ProfilePic from '../assets/images/ProfilePic.jpg';
+// import ProfilePic from '../assets/images/ProfilePic.jpg';.
 import { navLinksdata } from '../constants/index';
 
 const Navbar = () => {
@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <div className="w-full xl:px-16 px-8  py-4 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
       <div className="flex gap-2 items-center">
-        <img src={ProfilePic} alt="logo" className="xl:w-[50px] w-10 rounded-full" />
+        {/* <img src={ProfilePic} alt="logo" className="xl:w-[50px] w-10 rounded-full" /> */}
         <p className=" text-xl font-medium uppercase font-bodyFont ">verma</p>
       </div>
       <div>
