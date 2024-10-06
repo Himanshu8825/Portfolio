@@ -70,8 +70,8 @@ const ProjectsData = [
     id: 5,
     img: projectFive,
     title: 'Portfolio',
-    github: 'https://github.com/Himanshu8825/Password-Generator.git',
-    liveLink: 'https://resilient-duckanoo-7c0618.netlify.app/',
+    github: 'https://github.com/Himanshu8825/Portfolio.git',
+    liveLink: 'https://portfolio-wine-tau-25.vercel.app/',
     description:
       'Portfolio project leveraging React.js and Tailwind CSS for dynamic UI. Designed to optimize user experience with intuitive navigation and modern aesthetics.',
   },
