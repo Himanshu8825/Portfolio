@@ -3,8 +3,9 @@ import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-import {  logo4 } from "../assets/index";
+
 import { navLinksdata } from "../constants/index";
+import { logo4 } from "../assets";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -45,7 +46,7 @@ const Navbar = () => {
             <div className="flex flex-col gap-8 py-2 relative">
               <div>
                 <img className="w-[50px] rounded-full" src={logo4} alt="logo" />
-                
+
               </div>
               <ul className="flex flex-col gap-4">
                 {navLinksdata.map((item) => (
