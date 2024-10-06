@@ -1,6 +1,5 @@
 import React from "react";
 import { bannerImg } from "../../assets/index";
-import Suraj from '../../assets/images/SurajPhoto.png'
 
 const RightBanner = () => {
   return (
