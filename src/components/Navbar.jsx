@@ -4,7 +4,7 @@ import { FiMenu } from 'react-icons/fi';
 import { MdClose } from 'react-icons/md';
 import { Link } from 'react-scroll';
 
-import {logo4} from '../assets/index';
+import logo4 from '../assets/images/logo4.jpg';
 import { navLinksdata } from '../constants/index';
 
 const Navbar = () => {
